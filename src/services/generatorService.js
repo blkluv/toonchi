@@ -19,7 +19,7 @@ export const generateCharacter = async (prompt, contextData) => {
           Authorization: `Bearer ${key}`,
           'Content-Type': 'application/json',
           // Use the standard "Referer" header
-          // Referer: 'https://sethukumar1709.github.io/toon-tailor',
+          Referer: 'https://peeyush-04.github.io/toon-tailor',
         },
         body: JSON.stringify({
           model: 'deepseek/deepseek-r1:free',
